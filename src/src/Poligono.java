@@ -3,8 +3,8 @@
 package src;  // Define que esta classe pertence ao pacote "src"
 
 // 2. DECLARAÇÃO DA CLASSE
-//public abstract class Poligono {
-public class Poligono {  // Cria uma classe pública chamada "Poligono"
+public abstract class Poligono {// Classe abstrata chamada "Poligono"(pai das clases)
+//public class Poligono {  // Cria uma classe pública chamada "Poligono"
     
     // 3. ATRIBUTOS PRIVADOS (ENCAPSULAMENTO)
     private int altura;    // Armazena a altura do polígono (acessível apenas dentro da classe)
@@ -27,8 +27,8 @@ public class Poligono {  // Cria uma classe pública chamada "Poligono"
     }
     
     // 7. MÉTODO PARA CALCULAR ÁREA (MÉTODO GENÉRICO)
-    public float getArea() {  // Método que calcula e retorna a área como float
-        return 0;             // Retorna 0 pois é uma implementação genérica para polígonos
-    }
-    //public abstract float getArea();
+    //public float getArea() {  // Método que calcula e retorna a área como float
+    //    return 0;             // Retorna 0 pois é uma implementação genérica para polígonos
+    //}
+    public abstract float getArea();// metodo que faz parte apoés ter declarado como classe abstrata(pai das clases)
 }

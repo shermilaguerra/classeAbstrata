@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Classe Retangulo herda da classe poligono porque tem as carateristica e metodos
+ *  mas eu sobreescrevo o metodo getArea da classe pai porque o o calculo da area é unico para cada classe filha Retangulo
+ *
  */
 package src;
 
